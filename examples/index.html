@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    {{visible}}
+    <button @click="test">点击</button>
+</div>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: function() {
+            return { visible: false }
+        },
+        methods:{
+            test(){
+
+            }
+        }
+    })
+    var myImage = new Image(100, 200);
+    myImage.src = 'https://unpkg.com/vue/dist/vue.js';
+    document.body.appendChild(myImage);
+    setTimeout(()=>{
+        document.body.removeChild(myImage)
+    },2000)
+    console.log(null.l)
+    document.body.addEventListener('click',  (event) => {
+        console.log(event.target)
+    }, false)
+    window.addEventListener('error',function(event){
+        console.log(event)
+    }, true)
+</script>
+</body>
+</html>
