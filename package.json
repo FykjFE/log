@@ -1,0 +1,26 @@
+{
+  "name": "log",
+  "version": "1.0.0",
+  "description": "前端埋点插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FykjFE/log.git"
+  },
+  "keywords": [
+    "react",
+    "vue"
+  ],
+  "author": "FykjFE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FykjFE/log/issues"
+  },
+  "homepage": "https://github.com/FykjFE/log#readme",
+  "dependencies": {
+    "rollup": "^2.30.0"
+  }
+}
